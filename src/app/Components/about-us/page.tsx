@@ -17,7 +17,6 @@ export default function About() {
             height={1000}
           />
         </div>
-
         <div className=" pt-10 text-3xl font-bold text-center md:w-auto md:text-left lg:w-[900px] lg:justify-between ">
           <h1>About</h1>
           <p className="pt-5 text-xl font-normal text-justify md:pt-10">

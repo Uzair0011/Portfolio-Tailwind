@@ -7,7 +7,7 @@ export default function FooterEnd() {
       <div className="border-y-1"></div>
       {/* 2 div */}
       <section className="md:w-full md:px-5 md:flex md:items-center md:justify-between">
-        <div className="textCopyReseved">
+        <div className="text-center">
           &copy; Copyright 2023 Uzair Ahmed. All Rights Reserved.
         </div>
         <div className="justify-self-center md:flex">

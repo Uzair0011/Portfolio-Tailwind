@@ -15,7 +15,7 @@ export default function Header() {
         </div>
       </div>
       {/* nav bar */}
-      <ul className="flex justify-center py-2 gap-10 items-center ">
+      <ul className="flex justify-center py-2 gap-5 md:gap-10 items-center px-1 ">
         <Link href={"/"}>
           <li className="listAll">Home</li>
         </Link>
@@ -28,7 +28,7 @@ export default function Header() {
         </Link>
         <Link
           className="
-        bg-custom-blue px-3 rounded-md
+        bg-custom-blue px-1 rounded-md
         "
           href={"cv.pdf"}
           target="black"
