@@ -13,8 +13,8 @@ export default function Header() {
   };
   // return
   return (
-    <div className="flex justify-between px-5 py-1 items-center md:items-center w-full h-auto bg-black text-white md:flex md:justify-between md:px-12 md:h-[76px] overflow-hidden ">
-      <div className="block items-center md:flex text-center ">
+    <div className=" z-30 fixed top-0 right-0 left-0  flex justify-between px-5 py-1 items-center md:items-center w-full h-auto bg-black  text-white md:flex md:justify-between md:px-12 md:h-[76px] overflow-hidden ">
+      <div className="block items-center md:flex text-center  ">
         <div className="flex justify-center py-2">
           {/* logo picture */}
           <Image src={"/uzair.jpg"} alt="Logo" width={50} height={50} />
@@ -59,13 +59,24 @@ export default function Header() {
           )}
         </div>
         {isMenuOpen && (
-          <ul className="  bg-green-700 flex flex-col gap-4 mt-4 md:hidden">
-            <li>
+          <ul className=" top-[60px] right-[10%] fixed z-10 w-full p-3 rounded pl-20 pt-5 bg-black opacity-85 md:hidden">
+            <li className="pb-10 pl-3 font-bold text-2xl">
               <a href="/" onClick={toogleMenu}>
                 Home
               </a>
             </li>
-            <li>Contact</li>
+
+            <li className="pb-10 pl-3 font-bold text-2xl">
+              <a href="#About" onClick={toogleMenu}>
+                About
+              </a>
+            </li>
+
+            <li className="pb-10 pl-3 font-bold text-2xl">
+              <a href="#Contact" onClick={toogleMenu}>
+                Contact
+              </a>
+            </li>
           </ul>
         )}
       </div>
