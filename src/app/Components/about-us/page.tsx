@@ -4,22 +4,19 @@ import Link from "next/link";
 export default function About() {
   return (
     <div id="About">
-      <div className="block justify-items-center py-28 px-5 md:flex-wrap md:justify-center lg:flex lg:justify-between">
-        <div
-          className="
-          w-80 py-3  md:flex md:flex-wrap md:px-6 "
-        >
+      <div className=" w-[100%] py-11 flex flex-col justify-center  lg:flex-row lg:justify-between px-11 items-center gap-5">
+        <div>
           <Image
-            className="md:w-[400px] md:h-[400px]"
+            className="w-56 md:w-[300px] md:h-[300px] my-11"
             src="/me.jpg"
             alt="picture"
             width={1000}
             height={1000}
           />
         </div>
-        <div className=" pt-10 text-3xl font-bold text-center md:w-auto md:text-left lg:w-[900px] lg:justify-between ">
-          <h1>About</h1>
-          <p className="pt-5 text-xl font-normal text-justify md:pt-10">
+        <div className=" w-[100%]   text-justify text-3xl font-bold ">
+          <h1 className="">About</h1>
+          <p className=" text-xl font-normal  ">
             My name is Uzair Ahmed. I am a versatile full-stack developer, UI/UX
             designer, and graphics designer with a strong commitment to creating
             visually appealing and user-friendly digital experiences. Currently,
