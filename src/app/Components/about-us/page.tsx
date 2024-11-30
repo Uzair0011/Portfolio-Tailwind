@@ -14,9 +14,9 @@ export default function About() {
             height={1000}
           />
         </div>
-        <div className=" w-[100%]   text-justify text-3xl font-bold ">
-          <h1 className="">About</h1>
-          <p className=" text-xl font-normal  ">
+        <div className=" w-[100%]    text-3xl font-bold ">
+          <h1 className="text-center lg:text-start">About</h1>
+          <p className=" text-xl font-normal  text-justify ">
             My name is Uzair Ahmed. I am a versatile full-stack developer, UI/UX
             designer, and graphics designer with a strong commitment to creating
             visually appealing and user-friendly digital experiences. Currently,
@@ -30,8 +30,8 @@ export default function About() {
             thriving freelance career, dedicated to providing my clients with
             top-notch, dependable results.
           </p>
-          <Link href="/cv.pdf" target="blank">
-            <button className="pt-10 md:pt-10">View CV</button>
+          <Link  href="/cv.pdf" target="blank">
+            <button className=" pt-10 md:pt-10">View CV</button>
           </Link>
         </div>
       </div>
